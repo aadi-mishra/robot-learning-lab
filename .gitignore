@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Generated ML training outputs
+/outputs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Generated training artifacts
+/outputs/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
